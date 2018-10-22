@@ -4,7 +4,7 @@ body {
 }
 
 .header {
-  height: 120px;
+  height: 130px;
   width: 100%;
   position: fixed;
   top: -130px;
@@ -58,6 +58,7 @@ body {
 .footer {
   background-color: #273042;
   color: white;
+  padding-bottom: 30px;
 }
 
 .footer-text {
