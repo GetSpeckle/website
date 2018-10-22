@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  font-family: Arial,sans-serif;
+}
+
+.header {
+  height: 120px;
+  width: 100%;
+  position: fixed;
+  top: -130px;
+  z-index: 1000;
+  padding-top: 130px;
+  background-color: white;
+  border-bottom: #273042 1px solid;
+}
+
+.header .social {
+  text-align: right;
+}
+
+.title {
+  margin-top: 260px;
+  font-size: 500%;
+  text-align: center;
+}
+
+.subscription {
+  text-align: center;
+  margin-top: 80px;
+}
+
+.email {
+  padding: 10px;
+  border: 1px solid #273042;
+  height: 30px;
+  width: 240px;
+}
+
+.subscription button {
+  background-color: #273042;
+  border: 1px #273042 solid;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: white;
+  height: 54px;
+}
+
+.subtitle {
+  margin-top: 50px;
+  font-size: 200%;
+  text-align: center;
+}
+
+.circle {
+  margin-top: 130px;
+}
+
+.footer {
+  background-color: #273042;
+  color: white;
+}
+
+.footer-text {
+  font-size: 150%;
+}
+
+/*  SECTIONS  */
+.section {
+  clear: both;
+  padding: 0;
+  margin: auto;
+  width: 80%;
+}
+
+/*  COLUMN SETUP  */
+.col {
+  display: block;
+  float:left;
+  margin: 1% 0 1% 1.6%;
+}
+.col:first-child { margin-left: 0; }
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+
+/*  GRID OF TWO  */
+.span_2_of_2 {
+  width: 100%;
+}
+.span_1_of_2 {
+  width: 49.2%;
+}
+
+/*  GRID OF THREE  */
+.span_3_of_3 {
+  width: 100%;
+}
+.span_2_of_3 {
+  width: 66.1%;
+}
+.span_1_of_3 {
+  width: 32.2%;
+}
+
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+  .col {
+    margin: 1% 0 1% 0%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .span_3_of_3, .span_2_of_3, .span_1_of_3 .span_2_of_2, .span_1_of_2 { width: 100%; }
+}
