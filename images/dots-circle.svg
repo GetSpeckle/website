@@ -1,41 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 515.9 697.3" style="enable-background:new 0 0 515.9 697.3;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:#17BCE2;}
-</style>
-<title>Group</title>
-<desc>Created with Sketch.</desc>
-<g id="Page-1">
-	<g id="Group" transform="translate(-94.000000, -159.000000)">
-		<g id="Group-2" transform="translate(94.500000, 157.500000)">
-			<path id="Shape_4_" class="st0" d="M127.8,277.2c-16.3-8.9-37.2-2.1-45.3,14.1c-4,8.1-4.8,17.3-2.1,26
-				c2.7,8.6,8.9,15.9,17.1,19.9c4.1,2,8.2,3.2,12.5,3.5c4.2,0.3,8.5-0.2,12.9-1.5c8.7-2.7,16-8.8,20-16.9
-				C151,306.1,144.1,286.1,127.8,277.2z"/>
-			<path id="Shape" class="st0" d="M297,443.2c-11.7-5.5-24.9-6.6-37.3-3c-24.8,7.1-39,33.4-31.2,56.8c5.9,17.6,23,30.4,42.3,31.9
-				c6,0.5,12.1-0.2,18.3-2c24.8-7.1,39-33.4,31.2-56.8C316.3,458.4,307.4,448.6,297,443.2z"/>
-			<path id="Shape_1_" class="st0" d="M176.7,388.6c-19.5-10.7-44.6-2.6-54.3,16.9c-4.9,9.7-5.7,20.8-2.5,31.2
-				c3.2,10.4,10.7,19.1,20.5,23.9c4.9,2.4,9.9,3.8,14.9,4.2c5.1,0.4,10.2-0.2,15.4-1.8c10.4-3.2,19.2-10.6,24-20.3
-				C204.5,423.2,196.2,399.3,176.7,388.6z"/>
-			<path id="Shape_3_" class="st0" d="M175.9,174.2c-6.6-3.2-14-3.8-21-1.7c-7,2.1-12.9,7.1-16.1,13.6c-7.2,13-1.7,29.7,11.5,36.1
-				c3.3,1.6,6.6,2.6,10,2.8c10.9,0.9,21.5-4.4,26.5-14.8c3.3-6.5,3.8-13.9,1.7-20.9C186.8,183.2,182.5,177.4,175.9,174.2z"/>
-		</g>
-	</g>
-</g>
-<g id="Page-1_1_">
-	<g id="Group_1_" transform="translate(-94.000000, -159.000000)">
-		<g id="Group-2_1_" transform="translate(94.500000, 157.500000)">
-			<path id="Shape_7_" class="st0" d="M420.5,370.5c16.2,9,37.2,2.3,45.3-13.9c4.1-8.1,4.9-17.3,2.2-26s-8.8-15.9-17-20
-				c-4.1-2-8.2-3.2-12.4-3.6s-8.5,0.1-12.9,1.4c-8.7,2.6-16,8.8-20.1,16.8C397.5,341.5,404.3,361.5,420.5,370.5z"/>
-			<path id="Shape_6_" class="st0" d="M252.2,203.7c11.7,5.6,24.9,6.7,37.3,3.2c24.9-7,39.2-33.2,31.5-56.7
-				c-5.8-17.6-22.9-30.5-42.1-32.1c-6-0.5-12.1,0.1-18.4,1.9c-24.9,7-39.2,33.2-31.5,56.7C232.9,188.4,241.8,198.2,252.2,203.7z"/>
-			<path id="Shape_5_" class="st0" d="M372.2,258.8c19.5,10.8,44.6,2.8,54.4-16.6c4.9-9.7,5.8-20.8,2.6-31.1
+  <style type="text/css">
+      .st0{fill:#FFF;}
+  </style>
+  <path id="Shape_1" class="st0" d="M252.2,203.7c11.7,5.6,24.9,6.7,37.3,3.2c24.9-7,39.2-33.2,31.5-56.7
+				c-5.8-17.6-22.9-30.5-42.1-32.1c-6-0.5-12.1,0.1-18.4,1.9c-24.9,7-39.2,33.2-31.5,56.7C232.9,188.4,241.8,198.2,252.2,203.7z">
+    <animate id="firstIn" attributeName="fill" from="#FFF" to="#17BCE2" dur="16s" begin="0s;eighthIn.end"/>
+    <animate id="firstOut" attributeName="fill" from="#17BCE2" to="#FFF" dur="3s" begin="firstIn.end"/>
+  </path>
+  <path id="Shape_2" class="st0" d="M372.2,258.8c19.5,10.8,44.6,2.8,54.4-16.6c4.9-9.7,5.8-20.8,2.6-31.1
 				c-3.2-10.4-10.6-19.1-20.4-24c-4.9-2.4-9.9-3.9-14.9-4.3c-5.1-0.4-10.2,0.1-15.4,1.7c-10.5,3.2-19.2,10.5-24.1,20.2
-				C344.6,224.1,352.7,248.1,372.2,258.8z"/>
-			<path id="Shape_2_" class="st0" d="M371.9,473.3c6.6,3.3,14,3.9,21,1.8c7-2.1,12.9-7,16.2-13.5c7.2-12.9,1.8-29.7-11.3-36.2
-				c-3.3-1.6-6.6-2.6-10-2.9c-10.9-0.9-21.5,4.3-26.5,14.7c-3.3,6.5-3.9,13.9-1.8,20.8C361.1,464.2,365.4,470,371.9,473.3z"/>
-		</g>
-	</g>
-</g>
+				C344.6,224.1,352.7,248.1,372.2,258.8z">
+    <animate id="secondIn" attributeName="fill" from="#FFF" to="#17BCE2"  dur="16" begin="firstIn.begin+2s" />
+    <animate id="secondOut" attributeName="fill" from="#17BCE2" to="#FFF" dur="3s" begin="secondIn.end"/>
+  </path>
+  <path id="Shape_3" class="st0" d="M420.5,370.5c16.2,9,37.2,2.3,45.3-13.9c4.1-8.1,4.9-17.3,2.2-26s-8.8-15.9-17-20
+				c-4.1-2-8.2-3.2-12.4-3.6s-8.5,0.1-12.9,1.4c-8.7,2.6-16,8.8-20.1,16.8C397.5,341.5,404.3,361.5,420.5,370.5z">
+    <animate id="thirdIn" attributeName="fill" from="#FFF" to="#17BCE2" dur="16s" begin="secondIn.begin+2s"/>
+    <animate id="thirdOut" attributeName="fill" from="#17BCE2" to="#FFF" dur="3s" begin="thirdIn.end"/>
+  </path>
+  <path id="Shape_4" class="st0" d="M371.9,473.3c6.6,3.3,14,3.9,21,1.8c7-2.1,12.9-7,16.2-13.5c7.2-12.9,1.8-29.7-11.3-36.2
+				c-3.3-1.6-6.6-2.6-10-2.9c-10.9-0.9-21.5,4.3-26.5,14.7c-3.3,6.5-3.9,13.9-1.8,20.8C361.1,464.2,365.4,470,371.9,473.3z">
+    <animate id="fourthIn" attributeName="fill" from="#FFF" to="#17BCE2" dur="16s" begin="thirdIn.begin+2s"/>
+    <animate id="fourthOut" attributeName="fill" from="#17BCE2" to="#FFF" dur="3s" begin="fourthIn.end"/>
+  </path>
+  <path id="Shape_5" class="st0" d="M297,443.2c-11.7-5.5-24.9-6.6-37.3-3c-24.8,7.1-39,33.4-31.2,56.8c5.9,17.6,23,30.4,42.3,31.9
+				c6,0.5,12.1-0.2,18.3-2c24.8-7.1,39-33.4,31.2-56.8C316.3,458.4,307.4,448.6,297,443.2z">
+    <animate id="fifthIn" attributeName="fill" from="#FFF" to="#17BCE2" dur="16s" begin="fourthIn.begin+2s"/>
+    <animate id="fifthOut" attributeName="fill" from="#17BCE2" to="#FFF" dur="3s" begin="fifthIn.end"/>
+  </path>
+  <path id="Shape_6" class="st0" d="M176.7,388.6c-19.5-10.7-44.6-2.6-54.3,16.9c-4.9,9.7-5.7,20.8-2.5,31.2
+				c3.2,10.4,10.7,19.1,20.5,23.9c4.9,2.4,9.9,3.8,14.9,4.2c5.1,0.4,10.2-0.2,15.4-1.8c10.4-3.2,19.2-10.6,24-20.3
+				C204.5,423.2,196.2,399.3,176.7,388.6z">
+    <animate id="sixthIn" attributeName="fill" from="#FFF" to="#17BCE2" dur="16s" begin="fifthIn.begin+2s"/>
+    <animate id="sixthOut" attributeName="fill" from="#17BCE2" to="#FFF" dur="3s" begin="sixthIn.end"/>
+  </path>
+  <path id="Shape_7" class="st0" d="M127.8,277.2c-16.3-8.9-37.2-2.1-45.3,14.1c-4,8.1-4.8,17.3-2.1,26
+				c2.7,8.6,8.9,15.9,17.1,19.9c4.1,2,8.2,3.2,12.5,3.5c4.2,0.3,8.5-0.2,12.9-1.5c8.7-2.7,16-8.8,20-16.9
+				C151,306.1,144.1,286.1,127.8,277.2z">
+    <animate id="seventhIn" attributeName="fill" from="#FFF" to="#17BCE2" dur="16s" begin="sixthIn.begin+2s"/>
+    <animate id="seventhOut" attributeName="fill" from="#17BCE2" to="#FFF" dur="3s" begin="seventhIn.end"/>
+  </path>
+  <path id="Shape_8" class="st0" d="M175.9,174.2c-6.6-3.2-14-3.8-21-1.7c-7,2.1-12.9,7.1-16.1,13.6c-7.2,13-1.7,29.7,11.5,36.1
+				c3.3,1.6,6.6,2.6,10,2.8c10.9,0.9,21.5-4.4,26.5-14.8c3.3-6.5,3.8-13.9,1.7-20.9C186.8,183.2,182.5,177.4,175.9,174.2z">
+    <animate id="eighthIn" attributeName="fill" from="#FFF" to="#17BCE2" dur="16s" begin="seventhIn.begin+2s"/>
+    <animate id="eighthOut" attributeName="fill" from="#17BCE2" to="#FFF" dur="3s" begin="eighthIn.end"/>
+  </path>
 </svg>
