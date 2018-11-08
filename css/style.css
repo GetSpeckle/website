@@ -20,10 +20,17 @@
 }
 
 .main {
+  display: -webkit-flex;
   display: flex;
-  flex-wrap: wrap;
   -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
   align-items: center;
+}
+
+.item {
+  max-width: 35rem;
+  -webkit-flex: 1 0 auto;
+  flex: 1 0 auto;
 }
 
 .features-icons {
@@ -51,6 +58,7 @@ footer {
   padding: 0;
   margin: 5rem auto 0;
   width: 80%;
+  max-width: 1140px;
 }
 
 /*  COLUMN SETUP  */
@@ -87,10 +95,7 @@ footer {
   width: 32.2%;
 }
 
-
-/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
-
-@media only screen and (max-width: 998px) {
+@media only screen and (max-width: 768px) {
   .col {
     margin: 1% 0 1% 0%;
     flex-basis: 100%;
