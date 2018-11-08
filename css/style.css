@@ -1,8 +1,3 @@
-body {
-  margin: 0;
-  font-family: Arial,sans-serif;
-}
-
 .logo {
   text-align: left;
 }
@@ -20,20 +15,8 @@ body {
   font-weight: 500;
 }
 
-.subtitle {
-  margin-top: 50px;
-  font-size: 200%;
-  text-align: center;
-}
-
-.footer {
-  background-color: #273042;
+.text-colour {
   color: white;
-  padding-bottom: 30px;
-}
-
-.footer-text {
-  font-size: 150%;
 }
 
 .main {
@@ -41,6 +24,25 @@ body {
   flex-wrap: wrap;
   -webkit-flex-wrap: wrap;
   align-items: center;
+}
+
+.features-icons {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+.features-icon-item {
+  max-width: 20rem;
+  text-align: center;
+}
+
+.features-icons-icon {
+  height: 11rem;
+}
+
+footer {
+  padding-top:4rem;
+  padding-bottom:4rem
 }
 
 /*  SECTIONS  */
@@ -92,8 +94,9 @@ body {
   .col {
     margin: 1% 0 1% 0%;
     flex-basis: 100%;
+    text-align: center;
   }
-  .span_3_of_3, .span_2_of_3, .span_1_of_3, .span_2_of_2, .span_1_of_2 { width: 100%; }
+  .span_3_of_3, .span_2_of_3, .span_1_of_3, .span_2_of_2, .span_1_of_2 { width: 100%; text-align: center;}
   .logo, .social {
     text-align: center;
   }
@@ -101,3 +104,5 @@ body {
     font-size: 2rem;
   }
 }
+
+
