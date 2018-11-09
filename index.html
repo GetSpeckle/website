@@ -15,7 +15,7 @@
         params.append('email', email);
         const submitBtn = document.getElementById("submit");
         submitBtn.disabled = true;
-        axios.post('http://localhost/newsletter.php', params).then(function (response) {
+        axios.post('/newsletter.php', params).then(function (response) {
           if (response.data == 200) {
             setTextColor(hint, "text-success");
             hint.textContent = 'Thank you for following us! A confirmation email has been sent.';
