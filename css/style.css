@@ -14,8 +14,14 @@
   font-weight: 500;
 }
 
-.text-colour {
-  color: white;
+.hint {
+  padding-top: 5px;
+  font-weight: lighter;
+  text-align: center;
+}
+
+.bg-color {
+  background-color: #273042;
 }
 
 .flex-box {
