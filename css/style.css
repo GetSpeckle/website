@@ -7,7 +7,7 @@
 }
 
 .slogan {
-  font-size: 3rem;
+  font-size: 2.1rem;
   text-align: center;
   margin-bottom: 1rem!important;
   display: block;
@@ -59,61 +59,18 @@ footer {
   padding-bottom:3rem
 }
 
-/*  SECTIONS  */
-.section {
-  clear: both;
-  padding: 0;
-  margin: 2.5rem auto 0;
-  width: 80%;
-  max-width: 1140px;
-}
-
-/*  COLUMN SETUP  */
-.column {
-  display: block;
-  float:left;
-  margin: 1% 0 1% 1.6%;
-  flex-basis: auto;
-}
-.column:first-child { margin-left: 0; }
-
-/*  GROUPING  */
-.group:before,
-.group:after { content:""; display:table; }
-.group:after { clear:both;}
-.group { zoom:1; /* For IE 6/7 */ }
-
-/*  GRID OF TWO  */
-.span_2_of_2 {
-  width: 100%;
-}
-.span_1_of_2 {
-  width: 49.2%;
-}
-
-/*  GRID OF THREE  */
-.span_3_of_3 {
-  width: 100%;
-}
-.span_2_of_3 {
-  width: 66.1%;
-}
-.span_1_of_3 {
-  width: 32.2%;
-}
-
 @media only screen and (max-width: 768px) {
-  .column {
-    margin: 1% 0 1% 0%;
-    flex-basis: 100%;
-    text-align: center;
-  }
-  .span_3_of_3, .span_2_of_3, .span_1_of_3, .span_2_of_2, .span_1_of_2 { width: 100%; text-align: center;}
   .logo, .social {
     text-align: center;
   }
   .slogan {
     font-size: 2rem;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  .slogan {
+    font-size: 2.8rem;
   }
 }
 
