@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Speckle OS</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script type="text/javascript">
+    function subscribe() {
+      const params = new URLSearchParams();
+      const email = document.getElementById('email').value;
+      const hint = document.getElementById('hint');
+      if (validateEmail(email)) {
+        params.append('email', email);
+        const submitBtn = document.getElementById("submit");
+        submitBtn.disabled = true;
+        axios.post('/newsletter.php', params).then(function (response) {
+          if (response.data == 200) {
+            setTextColor(hint, "text-success");
+            hint.textContent = 'Thank you for following us! A confirmation email has been sent.';
+          } else if (response.data == 418) {
+            setTextColor(hint, "text-danger");
+            hint.textContent = "The email seems invalid."
+          } else {
+            setTextColor(hint, "text-info");
+            hint.textContent = "You have already subscribed our newsletter with this email."
+          }
+          submitBtn.disabled = false;
+        }).catch(function (error) {
+          console.log(error);
+          setTextColor(hint, "text-danger");
+          hint.textContent = "Sorry, something went wrong. Please contact hello@speckleos.io";
+          submitBtn.disabled = false;
+        });
+      } else {
+        setTextColor(hint, "text-danger");
+        hint.textContent = "The email seems invalid."
+      }
+    }
+
+    function setTextColor(element, className) {
+      element.className = element.className.replace(/(?:^|\b)(text-\w+)(?=\b|$)/g, '').trim()
+      element.className += ' ' + className;
+    }
+
+    function validateEmail(email) {
+      const re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+      return re.test(email);
+    }
+
+    function onUserInput(e) {
+      if (e.keyCode == 13) {
+        subscribe()
+      } else {
+        let hint = document.getElementById("hint");
+        hint.textContent = '\u00a0';
+      }
+    }
+  </script>
+</head>
+<body>
+<div class="container pt-3">
+  <div class="row">
+    <div class="col-lg-6 col-md-9 col-sm-12 col-12 logo">
+      <img src="images/speckleos-logo.png" alt="SpeckleOS Logo">
+    </div>
+    <div class="col-lg-6 col-md-3 col-sm-12 col-12 social">
+      <a href="https://twitter.com/speckleos"><img src="images/twitter-icon.png" alt="Twitter"></a>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row d-lg-flex flex-row align-items-center">
+    <div class="col-lg p-5">
+      <div class="slogan">
+        Your Window into the New Web
+      </div>
+      <div class="form-row">
+        <div class="col-12 col-md-9 mb-2 mb-md-0">
+          <input id="email" type="email" class="form-control form-control-lg" placeholder="Follow our updates!"
+                 onClick="this.select()" onkeypress="onUserInput(event)"
+                 maxlength=254
+                 required
+                 autofocus
+          >
+        </div>
+        <div class="col-12 col-md-3">
+          <button id="submit" type="submit" class="btn btn-block btn-lg btn-primary" onclick="subscribe()">Submit
+          </button>
+        </div>
+      </div>
+      <p id="hint" class="hint">&nbsp;</p>
+    </div>
+    <div class="col-lg px-5">
+      <img src="images/dots-circle.svg">
+    </div>
+  </div>
+</div>
+
+<section class="features-icons bg-color text-center text-white">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg">
+        <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+          <div class="features-icons-icon">
+            <img src="images/1-dot.svg" width="40%">
+          </div>
+          <h3>Persistent Identities</h3>
+          <p class="lead mb-0">Identities compatible across the Polkadot Network</p>
+        </div>
+      </div>
+      <div class="col-lg">
+        <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+          <div class="features-icons-icon">
+            <img src="images/2-dots.svg" width="40%">
+          </div>
+          <h3>Own Your Data</h3>
+          <p class="lead mb-0">Control your data at all times, and manage how applications have access to it</p>
+        </div>
+      </div>
+      <div class="col-lg">
+        <div class="features-icons-item mx-auto mb-0 mb-lg-3">
+          <div class="features-icons-icon">
+            <img src="images/3-dots.svg" width="40%">
+          </div>
+          <h3>Access to Web 3</h3>
+          <p class="lead mb-0">Manage assets and interact with dApps across the Polkadot Network</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<footer class="bg-color">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
+        <ul class="list-inline mb-2">
+          <li class="list-inline-item">
+            <p class="text-white"> Say hi at hello@speckleos.io </p>
+          </li>
+        </ul>
+        <p class="text-muted small mb-4 mb-lg-0">© Speckle OS 2018. All Rights Reserved.</p>
+      </div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
